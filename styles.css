@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  .cabecalho{
+    max-width: 600px;
+    background-color: lightgreen;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    flex-direction: row;
+    padding-bottom: 20px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serifs;
+  
+}
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: lightgray;
+    padding: 20px;
+    flex-direction: row;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    flex-direction: row;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    flex-direction: row;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    flex-direction: row;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-direction: row;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+    flex-direction: row;
+  }
+  
+  .gender-group {
+    margin-bottom: 20px;
+    flex-direction: row;
+  }
+  
+  .gender-label {
+    margin-right: 10px;
+    flex-direction: row;
+  }
+  
